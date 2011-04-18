@@ -6,6 +6,13 @@
 
 //@import "vendor/plugin-name";
 
+@font-face {  
+  font-family: SteelTongs ;  
+  src: url( http://dl.dropbox.com/u/1953503/steeltongs_regular.ttf ) format("truetype");  
+
+}  
+
+
 // Base colors and sizes
 
 $base-color: #e5f3f3;
@@ -15,13 +22,13 @@ $link-color: #3F7D99;
 $background-color: black;
 $alternative-background-color: #074e57;
 
-$base-font-family: "arno-pro-1", "arno-pro-2", Georgia, "Times New Roman", serif;
-$headline-font-family: "trajan-pro-1", "trajan-pro-2", Georgia, "Times New Roman", serif;
-$small-font-size: 11px;
-$base-font-size: 13px;
-$large-font-size: 20px;
-$x-large-font-size: 30px;
-$base-line-height: 1.231;
+$base-font-family: "SteelTongs", "arno-pro-1", "arno-pro-2", Georgia, "Times New Roman", serif;
+$headline-font-family: "SteelTongs", "trajan-pro-1", "trajan-pro-2", Georgia, "Times New Roman", serif;
+$small-font-size: 1em;
+$base-font-size: 2em;
+$large-font-size: 2.5em;
+$x-large-font-size: 3.5em;
+$base-line-height: 2em;
 
 // HTML5 boilerplate
 

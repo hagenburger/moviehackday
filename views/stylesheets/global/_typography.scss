@@ -37,7 +37,6 @@
 .paragraph {
   @extend .base-font;
   @extend .m;
-  margin: 1em 0;
 }
 
 .headline {
@@ -57,11 +56,17 @@ em {
 
 p {
   @extend .paragraph;
+  margin: 1em 0;
+  text-align: center;
+  line-height: 1em;
 }
 
 h1 {
   @extend .headline;
   @extend .xl;
+  font-size:3em;
+  display: block;
+  text-align:center;
 }
 
 h2,

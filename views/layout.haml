@@ -20,7 +20,7 @@
     %link(rel="shortcut icon" href="#{asset_url('favicon.ico')}")
     %link(rel="apple-touch-icon" href="#{asset_url('apple-touch-icon.png')}")
     %link(rel="stylesheet" href="#{asset_url('stylesheets/moviehackday.css?v=1')}")
-    %script(src="//use.typekit.com/hlr4nnw.js" async onload="try{Typekit.load()}catch(e){}")
+    -#%script(src="//use.typekit.com/hlr4nnw.js" async onload="try{Typekit.load()}catch(e){}")
     - if @stylesheet
       %link(rel="stylesheet" href="#{asset_url("stylesheets/#{@stylesheet}.css")}")
     - javascript = @jquery || @javascript || yield_content(:javascript)
@@ -32,13 +32,5 @@
     #main
       = yield
     %footer
-      %small
-        Organized by
-        %a(href="http://www.moviepilot.de") moviepilot
-      %small
-        %a(href="http://www.moviepilot.de/pages/imprint") Imprint
-      %small
-        Designed by
-        %a(href="http://www.hagenburger.net") Nico Hagenburger
     %script(src="//ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js")
     %script !window.jQuery && document.write(unescape('%3Cscript src="#{asset_url('javascripts/vendor/jquery-1.5.2.min.js')}"%3E%3C/script%3E'))
