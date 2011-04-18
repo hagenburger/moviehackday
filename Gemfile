@@ -1,5 +1,0 @@
-source 'http://rubygems.org'
-gem 'jammit',            '~> 0.6.0'
-gem 'middleman',         '~> 1.1.1.a'
-gem 'rdiscount',         '~> 1.6.8'
-gem 'html5-boilerplate', '~> 0.3.3'
